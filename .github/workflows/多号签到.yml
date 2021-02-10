@@ -73,5 +73,5 @@ jobs:
         user2: ${{secrets.unicom_user2}}
         password2: ${{secrets.unicom_password}}
         appid: ${{secrets.unicom_appid}}
-      run: node index.js unicom --user=${user} --password=${password} --appid=${appid}  --tryrun --tasks dailygameflow
+      run: node index.js unicom --user=${user} --password=${password} --appid=${appid}  --tryrun 
 
